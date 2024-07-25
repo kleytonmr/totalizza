@@ -5,11 +5,11 @@ import { Content } from './components/content';
 import { styles } from './styles/app';
 
 export default function App() {
-  
+
   return (
     <View style={styles.container}>
       <Header />
-      <Content></Content>
+      <Content />
     </View>
   );
 }
